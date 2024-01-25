@@ -5,12 +5,12 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  --bgColor: white;
 }
 
 body {
   --color: rgba(30, 30, 30);
-  --bgColor: rgba(245, 245, 245);
+  .box-shadow(none);  
   min-height: 100vh;
   display: grid;
   align-content: center;
@@ -22,6 +22,9 @@ body {
 }
 
 h1 {
+  text-align: center;
+}
+p{
   text-align: center;
 }
 
@@ -195,3 +198,5 @@ ul li .descr::before {
 .credits a {
   color: var(--color);
 }
+
+
